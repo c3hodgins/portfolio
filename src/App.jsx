@@ -8,7 +8,7 @@ function App() {
     setSection(sect);
   }
 
-  
+    
   return (
     <>
       <div className='flex justify-between  top-0'>
