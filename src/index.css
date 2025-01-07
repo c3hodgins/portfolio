@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .root{
+        @apply h-screen bg-slate-600;
+    }
+    body{
+        font-family: "Share Tech Mono", cursive;
+    }
+    html{
+        @apply bg-slate-700;
+    }
+}
