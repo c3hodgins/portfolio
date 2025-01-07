@@ -8,8 +8,14 @@
     }
     body{
         font-family: "Share Tech Mono", cursive;
+        margin:0;
+        padding:0;
+        width:100vw;
     }
     html{
-        @apply bg-slate-700;
+        @apply bg-slate-700 w-screen m-0 p-0 overflow-x-hidden;
+    }
+    .header{
+        @apply shadow-lg shadow-slate-800 fixed top-0 items-center w-screen m-0 px-4 h-24 flex justify-between text-white border-slate-700 bg-slate-600;
     }
 }
