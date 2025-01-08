@@ -16,6 +16,6 @@
         @apply bg-slate-950 w-screen h-full m-0 p-0 overflow-x-hidden;
     }
     .header{
-        @apply border-b-4 border-orange-300 shadow drop-shadow-2xl fixed top-0 items-center w-screen m-0 px-4 h-24 flex justify-between text-white bg-slate-900;
+        @apply border-b-4 border-orange-300 shadow drop-shadow-2xl fixed top-0 items-center w-screen m-0 px-4 h-24 flex justify-between text-white bg-slate-800;
     }
 }

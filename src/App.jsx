@@ -23,7 +23,7 @@ function App() {
         section={section}
         sections={sections}
       />
-      <div className="h-screen pt-24 flex flex-col justify-center items-center">
+      <div className="h-screen lg:pt-24 pt-56 flex flex-col justify-center items-center">
         <Hero section = {section}/>
         {/* Projects */}
         {section == "Projects" && (

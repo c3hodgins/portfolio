@@ -15,8 +15,8 @@ export const Header = ({ section, sections, handleSection }) => {
           <button
             key={sect}
             className={
-              (section === sect ? " border-green-400" : "border-slate-800 hover:border-slate-900") +
-              ` sm:text-xs text-xs p-2 border-b-4 lg:p-4 lg:text-lg duration-200 bg-slate-800 hover:bg-slate-950  ease-in-out`
+              (section === sect ? " border-green-400" : "border-slate-900 hover:border-slate-950") +
+              ` sm:text-xs text-xs p-2 border-b-4 lg:p-4 lg:text-lg duration-200 bg-slate-900 hover:bg-slate-950  ease-in-out`
             }
             onClick={() => handleSection(sect)}
           >
